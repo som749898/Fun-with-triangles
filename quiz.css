@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 150px;
+  background-color: #7c3aed;
+  margin-bottom: 40px;
+  padding: 15px;
+  color: white;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  float: left;
+  list-style: none;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+header ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#secHead {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.question-container {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 18px;
+  text-align: center;
+  color: #7c3aed;
+  padding: 10px;
+}
+
+input {
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #7c3aed;
+  padding: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: #7c3aed;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#output-div {
+  font-size: 20px;
+  text-align: center;
+}
